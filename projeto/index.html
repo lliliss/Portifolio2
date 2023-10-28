@@ -17,28 +17,27 @@
                 <div class="portifolio-image__center"></div>
             </section>
             <div class="grid-header_item">
-                <h1 class="portifolio-name">Alice Ferreira</h1>
-                <small class="portifolio-role">Software Developer</small>
-                <ul class="portifolio-contacts">
-                    <li><img src="./assets/imagens/github.svg" alt=""></li>
-                    <li><img src="./assets/imagens/email.svg" alt=""></li>
-                    <li><img src="./assets/imagens/linkedin.svg" alt=""></li>
-                </ul>
+                <h1 class="portifolio-name js-portifolio-name"></h1>
+                <small class="portifolio-role js-portifolio-role"></small>
+                <ul class="portifolio-contacts js-portifolio-contacts"></ul>
             </div>
         </div>
         <div class="grid-resume">
             <h2>Sobre mim</h2>
-            <p>
-                bla bla bla
-            </p>
+            <p class = "js-resume-text"></p>
         </div>
         <div class="grid-btns">
             <div class="grid-row">
-            <button class="btn primary">Meu Currículo</button>
+            <button class="btn primary" onclick="test">Meu Currículo</button>
             <a class="btn" href="">Fale comigo</a>
             </div>
-            <a class="btn" href="">Meus projetos</a>
+            <button class="btn js-btn-projects">Meus projetos</button>
         </div>
     </div>
+    <section class= "modal js-modal">
+        <button class="btn return js-btn-return">Voltar</button>
+    </section>
+    <script type = "module" src="./assets/javascript/app.js"></script>
+    <script type = "module" scr= "./data/data.js"></script>
 </body>
 </html>
